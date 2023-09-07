@@ -1,0 +1,16 @@
+body{
+    background-color: lightgrey;
+}
+
+.titulo{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+#paragrafo3{
+    color: green;
+    border: 3px solid white;
+}

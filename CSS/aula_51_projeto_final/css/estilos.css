@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+img{
+    margin-left: 40%;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-left: 15px;
+}
+
+#sobre{
+    border: solid burlywood;
+    width: 40%;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    left: 5%;
+}
+
+nav{
+    text-align: center;
+    word-spacing: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: darkgoldenrod;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    color: tan;
+}
+
+#divcontato{
+    border-style: double;
+    padding: 20px 20px 20px 20px;
+    width: 40%;
+}
+
+li{
+    list-style-type: upper-roman;
+}

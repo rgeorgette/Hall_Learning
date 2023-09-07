@@ -1,0 +1,72 @@
+body{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#login:link, #login:visited{
+    background-color: cadetblue;
+    color: darkblue;
+}
+
+#login:hover{
+    background-color: darkblue;
+    color: cadetblue;
+}
+
+#login:active{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+#imagens{
+    margin-left: 20px;
+}
+
+#imagens:link, #imagens:visited{
+    background-color: rgb(221, 15, 15);
+    color: white;
+}
+
+#imagens:hover{
+    background-color: orangered;
+    color: darkred;
+}
+
+#imagens:active{
+    background-color: transparent;
+    border: solid darkred;
+    color: red;
+}
+
+#index:link, #index:visited{
+    background-color: darkgreen;
+    color: white;
+}
+
+#index:hover{
+    background-color: transparent;
+    border: solid darkgreen;
+    color: darkgreen;
+}
+
+#index:active{
+    background-color: darkgreen;
+    color: lightgreen;
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+
+form{
+    margin: 20px;
+}
+
+input[type=submit]{
+    display: inline-block;
+}
