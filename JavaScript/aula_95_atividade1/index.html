@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Atividade 1</title>
+    <script>
+        let n1,n2, i, dia;
+
+        n1 = parseInt(prompt("Digite o primeiro número:"));
+        n2 = parseInt(prompt("Digite o segundo número:"));
+
+        console.log(n1 + n2);
+        console.log(n1 - n2);
+
+        if(n1 % 2 == 0){
+            if(n2 % 2 == 0){
+                console.log("Os dois números são pares");
+            } else {
+                console.log("O primeiro número é par e o segundo é ímpar");
+            }
+        } else {
+            if(n2 % 2 != 0){
+                console.log("Os dois números são ímpares");
+            } else {
+                console.log("O primeiro número é ímpar e o segundo é par");
+            }
+        }
+
+        dia = parseInt(prompt("Digite um dia da semana de 1 a 7:"));
+
+        switch(dia){
+            case 1:
+                console.log("Domingo");
+                break;
+            case 2:
+                console.log("Segunda");
+                break;
+            case 3:
+                console.log("Terça");
+                break;
+            case 4:
+                console.log("Quarta");
+                break;
+            case 5:
+                console.log("Quinta");
+                break;
+            case 6:
+                console.log("Sexta");
+                break;
+            case 7:
+                console.log("Sábado");
+                break;
+            default:
+                console.log("Dia não encontrado");
+        }
+
+        for (i = 1; i <= 50 ; i++) {
+            console.log(i);
+        }
+
+        i = 1;
+        while (i <= 50) {
+            console.log(i);
+            i++;
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

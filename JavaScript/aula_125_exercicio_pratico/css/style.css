@@ -1,0 +1,17 @@
+input {
+    font-size: 18px;
+    color: white;
+    background-color: darkgreen;
+}
+
+#inputButton {
+    margin-left: 20px;
+}
+
+button{
+    color: darkblue;
+    background-color: rgb(28, 212, 212);
+    padding: 10px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
